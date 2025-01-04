@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered News Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI News Aggregator</h1>
+        <nav>
+            <button onclick="setCategory('technology')">Technology</button>
+            <button onclick="setCategory('sports')">Sports</button>
+            <button onclick="setCategory('business')">Business</button>
+            <button onclick="displayBookmarks()">Bookmarks</button>
+        </nav>
+    </header>
+    <main>
+        <div id="news-container"></div>
+        <button id="load-more" onclick="loadMoreNews()">Load More</button>
+    </main>
+    <footer>
+        <h5>&copy; 2024 AI News Aggregator</h5>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
