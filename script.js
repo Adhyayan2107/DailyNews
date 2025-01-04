@@ -2,7 +2,7 @@ const url = 'https://real-time-news-data.p.rapidapi.com/topic-news-by-section?to
 const options = {
   method: 'GET',
   headers: {
-    'x-rapidapi-key': '522c2a2d5fmsh128c9b4839b0535p1deb9ajsnc50745ab5bd9',
+    'x-rapidapi-key': 'b8afa3f574mshac3272a71e446a3p16522bjsnd0cb3058cee3',
     'x-rapidapi-host': 'real-time-news-data.p.rapidapi.com'
   }
 };
