@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News and Bookmarks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Navbar -->
+    <div class="navbar">
+      <button class="tab-btn active" onclick="changeTab('news')">News</button>
+      <button class="tab-btn" onclick="changeTab('bookmarks')">Bookmarks</button>
+    </div>
+
+    <!-- Content -->
+    <div id="content-container" class="content-container"></div>
+
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
